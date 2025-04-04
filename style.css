@@ -1,0 +1,581 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F7FA;
+    width: 1152px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+}
+
+header .centr {
+    display: flex;
+    gap: 50px;
+    line-height: 24px;
+    color: #18191F;
+}
+
+header .right button:first-child {
+    border: none;
+    background-color: #F5F7FA;
+    margin-right: 14px;
+    color: #4CAF4F;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+
+}
+
+header .right button:last-child {
+    border-radius: 6px;
+    padding: 10px 20px;
+    background: #4CAF4F;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+.lessons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lessons .lessons_title h1 {
+    width: 657px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #4D4D4D;
+    margin-top: 162px;
+}
+
+.lessons .lessons_title span {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #4CAF4F;
+}
+
+.lessons .lessons_title p {
+    line-height: 24px;
+    color: #717171;
+    margin-top: 16px;
+}
+
+.lessons .lessons_title button {
+    width: 128px;
+    height: 52px;
+    border-radius: 4px;
+    padding: 14px 32px;
+    background: #4CAF4F;
+    color: #FFFFFF;
+    margin-top: 32px;
+    border: none;
+}
+
+.lessons .lessons_title button:hover {
+    background-color: #138a17;
+}
+
+.lessons .lessons_img {
+    padding-top: 96px;
+}
+
+.clients .clients_info {
+    margin-top: 136px;
+}
+
+.clients .clients_info h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #18191F;
+}
+
+.clients .clients_info p {
+    line-height: 24px;
+    text-align: center;
+    color: #717171;
+    margin-top: 8px;
+
+}
+
+.clients .clients_logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
+}
+
+
+.manage .manage_title h2 {
+    margin-top: 62px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #4D4D4D;
+    align-items: center;
+}
+
+.manage .manage_title p {
+    line-height: 24px;
+    text-align: center;
+    color: #717171;
+    margin-top: 8px;
+}
+
+
+.manage .manage_info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.manage .manage_info div {
+    text-align: center;
+    width: 267px;
+}
+
+
+.manage .manage_info .info_text h3 {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+
+.manage .manage_info .info_text .manage_text {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #717171;
+    margin-top: 8px;
+}
+
+
+.pixel {
+    display: flex;
+    align-items: center;
+}
+
+.pixel img {
+    margin-top: 42px;
+}
+
+.pixel .pixel_text {
+    margin-left: 49px;
+    padding-top: 42px;
+    width: 601px;
+}
+
+.pixel .pixel_text h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4D4D4D;
+}
+
+.pixel .pixel_text p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+    margin-top: 16px;
+}
+
+.pixel .pixel_text button {
+    width: 151px;
+    height: 52px;
+    padding: 14px 32px;
+    border-radius: 4px;
+    background: #4CAF4F;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 32px;
+}
+
+.pixel .pixel_text button:hover {
+    background-color: #138a17;
+}
+
+.local .local_text h3 {
+    margin-top: 132px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    width: 408px;
+    color: #4D4D4D;
+}
+
+.local .local_text span {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4CAF4F;
+}
+
+.local .local_text p {
+    line-height: 24px;
+    color: #18191F;
+    margin-top: 8px;
+}
+
+.local {
+    display: flex;
+}
+
+
+.local .statistics {
+    display: flex;
+    margin-top: 64px;
+    margin-left: 204px;
+}
+
+.local .statistics .stat_info {
+    display: flex;
+    margin-top: 40px;
+}
+
+.local .statistics .stat_text {
+    display: block;
+    margin-left: 16px;
+    width: 191px;
+}
+
+.local .statistics .stat_text .numbers {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #4D4D4D;
+}
+
+.local .statistics .stat_text .stat_text2 {
+    line-height: 24px;
+    color: #717171;
+}
+
+.local .statistics .stat_right {
+    margin-left: 30px;
+}
+
+
+.design {
+    display: flex;
+}
+
+.design .design_img {
+    margin-top: 132px;
+}
+
+
+.design .design_text {
+    width: 601px;
+    margin-left: 30px;
+}
+
+.design .design_text h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4D4D4D;
+    margin-top: 174px;
+}
+
+.design .design_text p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+    margin-top: 16px;
+}
+
+.design .design_text button {
+    width: 151px;
+    height: 52px;
+    padding: 14px 32px;
+    border-radius: 4px;
+    background: #4CAF4F;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 32px;
+}
+
+.design .design_text button:hover {
+    background-color: #138a17;
+}
+
+
+.tesla {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 80px;
+}
+
+.tesla .tesla_info {
+    width: 748px;
+    margin-left: 78px;
+
+}
+
+.tesla .tesla_info .tesla_text {
+    font-weight: 500;
+    line-height: 24px;
+    vertical-align: middle;
+    color: #717171;
+    width: 748px;
+}
+
+.tesla .tesla_info .tesla_text2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    vertical-align: middle;
+    color: #4CAF4F;
+    margin-top: 16px;
+}
+
+.tesla .tesla_info .tesla_text3 {
+    line-height: 24px;
+    vertical-align: middle;
+    color: #89939E;
+    margin-top: 8px;
+}
+
+.tesla .tesla_logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    align-items: center;
+}
+
+
+.tesla .tesla_logo .tesla_img {
+    display: flex;
+    gap: 41px;
+    width: 493px;
+}
+
+.tesla .tesla_logo .tesla_end {
+    display: flex;
+    width: 223px;
+}
+
+.tesla .tesla_logo .tesla_end p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    width: 188px;
+    color: #4CAF4F;
+    height: 28px;
+}
+
+
+.marketing .marketing_title h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-top: 83px;
+}
+
+.marketing .marketing_title p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #717171;
+    width: 628px;
+    margin-left: 250px;
+    margin-top: 8px;
+}
+
+.marketing .all_box {
+    display: flex;
+    gap: 24px;
+}
+
+.marketing .box {
+    width: 368px;
+    height: 366px;
+    margin-top: 16px;
+}
+
+.marketing .block {
+    width: 317px;
+    height: 176px;
+    gap: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    background: #F5F7FA;
+    box-shadow: 0px 8px 16px 0px #ABBED166;
+    position: relative;
+    bottom: 95px;
+    left: 25px
+}
+
+.marketing .box .block .block_text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #717171;
+}
+
+.marketing .box .block .block_img {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.marketing .box .block .block_img .block_text2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    vertical-align: middle;
+    color: #4CAF4F;
+    margin-right: 8px;
+}
+
+.end {
+    display: block;
+    text-align: center;
+    margin-top: 125px;
+}
+
+.end p {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.end button {
+    width: 178px;
+    height: 52px;
+    padding: 14px 32px;
+    border-radius: 4px;
+    background: #4CAF4F;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 32px;
+}
+
+.end button:hover {
+    background-color: #138a17;
+}
+
+footer {
+    background: #263238;
+    height: 328px;
+    margin-top: 32px;
+    width: 100%;
+}
+
+footer .left {
+    padding-top: 64px;
+    padding-left: 164px;
+}
+
+footer .left .footer_text {
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F5F7FA;
+}
+
+footer .left p {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F5F7FA;
+}
+
+footer .left .social button {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    border: none;
+    background-color: grey;
+    margin-right: 16px;
+    margin-top: 40px;
+}
+
+footer .left .social img {
+    display: flex;
+    margin: auto;
+}
+
+footer .closed_footer {
+    display: flex;
+}
+
+footer .closed_footer .column1 {
+    margin-left: 124px;
+}
+
+footer .column1 h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    margin-top: 64px;
+}
+
+footer .column1 .column2 {
+    width: 160px;
+    margin-right: 30px;
+}
+footer .column1 .column3 {
+    width: 160px;
+}
+
+footer .column1 p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #F5F7FA;
+    margin-top: 12px;
+}
+
+footer .column1 {
+    display: flex;
+}
+
+footer .column4 input {
+    width: 255px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-image: url(./img/send.svg);
+    background-repeat: no-repeat;
+    background-color: grey;
+    background-position: 225px;
+}
+
+footer .column4 input::placeholder {
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 12px;
+    color: #D9DBE1;
+}
+
+footer .column4 {
+    margin-left: 30px;
+}
